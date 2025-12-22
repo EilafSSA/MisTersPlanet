@@ -1,33 +1,37 @@
 using UnityEngine;
-using Unity.VisualScripting;
 using UnityEngine.InputSystem;
 
-public class PlanetRotation : MonoBehaviour
-{   
-    public float RotationSpeed = 50f;
-    private bool Isleft;
-    private bool Isright;
+public class PlanetRotator : MonoBehaviour
+{
+    public float rotationSpeed = 100f;
 
-    void Update()
+    private PlayerInputs inputActions;
+
+    private void Awake()
     {
-        Isleft = Input.GetButton("Left");
-        Isright = Input.GetButton("Right");
+        inputActions = new PlayerInputs();
     }
 
-    void FixedUpdate()
+    private void OnEnable()
     {
-         //movDir = move.ReadValue<Vector2>();
+        inputActions.PlayerInput.Enable();
+    }
 
-        if (Isright)
+    private void OnDisable()
+    {
+        inputActions.PlayerInput.Disable();
+    }
+
+    private void Update()
+    {
+        if (inputActions.PlayerInput.Left.IsPressed())
         {
-            transform.Rotate(Vector2.up*RotationSpeed*Time.deltaTime);
-            Debug.Log("Right");
+            transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
         }
-        if (Isleft)
-        { //vector2.forward
-            transform.Rotate((Vector2.up*RotationSpeed*Time.deltaTime)*-1);
-            Debug.Log("Left");
+
+        if (inputActions.PlayerInput.Right.IsPressed())
+        {
+            transform.Rotate(Vector3.back * rotationSpeed * Time.deltaTime);
         }
-        else{ Debug.Log("Yay"); }
     }
 }

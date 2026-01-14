@@ -21,6 +21,7 @@ public class AutoDialogueSequence : MonoBehaviour
         public string setQuestID;
         public int newValue;
     }
+    //Animator _animator; //Eilaf
 
     [Header("Targets")]
     public Transform player;
@@ -41,6 +42,7 @@ public class AutoDialogueSequence : MonoBehaviour
 
     void Start()
     {
+        //_animator = GameObject.GetComponent<Animator>(); //Eilaf
         if (player == null)
         {
             GameObject p = GameObject.FindGameObjectWithTag("Player");
@@ -120,6 +122,7 @@ public class AutoDialogueSequence : MonoBehaviour
     IEnumerator PlayPhase(DialoguePhase phase)
     {
         isTalking = true;
+        //_animator.SetBool("IsTalking", true); //Eilaf
 
         for (int i = currentLineIndex; i < phase.lines.Length; i++)
         {

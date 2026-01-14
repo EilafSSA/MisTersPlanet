@@ -162,6 +162,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: OldmanHouseSpriteSheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 674
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8b143a138b2c44c9925ac7474866ae
+      internalID: 429329118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -180,6 +202,7 @@ TextureImporter:
     nameFileIdTable:
       OldmanHouseSpriteSheet-Sheet_0: -6939383085292500877
       OldmanHouseSpriteSheet-Sheet_1: 3799107847869002830
+      OldmanHouseSpriteSheet-Sheet_2: 429329118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

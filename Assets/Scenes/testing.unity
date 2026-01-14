@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 4778182}
   - component: {fileID: 4778181}
   m_Layer: 0
-  m_Name: BG_Tree3-Sheet_0
+  m_Name: Tree3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ Animator:
   m_GameObject: {fileID: 4778180}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 55f1ca183aac29e43986d6d94c5b3c5f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1c90456a19e2769438f7d1a079ab4c20, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -206,7 +206,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -8122611472686875516, guid: 74e0112e270c5eb4fb58109235177501, type: 3}
+  m_Sprite: {fileID: 4106568531613798952, guid: 79b3e80b0015e5f4b9223f98e34a7069, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -214,7 +214,7 @@ SpriteRenderer:
   m_Size: {x: 4.03, y: 7.34}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &4778183
@@ -569,14 +569,14 @@ Transform:
   - {fileID: 575877223}
   - {fileID: 1098785414}
   - {fileID: 1315891987}
-  - {fileID: 1360520424}
-  - {fileID: 4778183}
-  - {fileID: 266133656}
   - {fileID: 415140703}
-  - {fileID: 1859531253}
-  - {fileID: 1008789832}
+  - {fileID: 1360520424}
   - {fileID: 2143936893}
   - {fileID: 851490502}
+  - {fileID: 266133656}
+  - {fileID: 1859531253}
+  - {fileID: 1008789832}
+  - {fileID: 4778183}
   m_Father: {fileID: 1860541295}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266133653
@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 266133655}
   - component: {fileID: 266133654}
   m_Layer: 0
-  m_Name: BG_weeds-Sheet_0
+  m_Name: weeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -607,7 +607,7 @@ Animator:
   m_GameObject: {fileID: 266133653}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 33db10d9a68e9394e9ba81d4e55a0802, type: 2}
+  m_Controller: {fileID: 9100000, guid: f398e5fc5b0434f4f8d8f8e7f1d2ad10, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -666,7 +666,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 22196518628052414, guid: b23f58715de440c4f9cf79a9b8bfba58, type: 3}
+  m_Sprite: {fileID: 22196518628052414, guid: fbcb7eeba737ad744bd2ca15188a650a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -674,7 +674,7 @@ SpriteRenderer:
   m_Size: {x: 1.89, y: 1.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &266133656
@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 415140702}
   - component: {fileID: 415140701}
   m_Layer: 0
-  m_Name: OldmanHouseSpriteSheet-Sheet_0
+  m_Name: OldmanHouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1078,7 +1078,7 @@ Animator:
   m_GameObject: {fileID: 415140700}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6bde004cb653d5548bdfb052da197233, type: 2}
+  m_Controller: {fileID: 9100000, guid: 438f1e5d7b494494a8812ad719ca3090, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1137,7 +1137,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -6939383085292500877, guid: 1739460d3a938b14ea8a29e3d0474a34, type: 3}
+  m_Sprite: {fileID: -6939383085292500877, guid: da1890a50901b1b45952cf286b8ff105, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1145,7 +1145,7 @@ SpriteRenderer:
   m_Size: {x: 6.8, y: 9.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &415140703
@@ -1433,7 +1433,7 @@ GameObject:
   - component: {fileID: 851490504}
   - component: {fileID: 851490503}
   m_Layer: 0
-  m_Name: BG_PrincessTower-Sheet_0
+  m_Name: PrincessTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1464,7 +1464,7 @@ Animator:
   m_GameObject: {fileID: 851490501}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c5a434912b1281543af31046c70e96a9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 55b8e617853034c4ab639b3b5142c707, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1523,7 +1523,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7975882629763456202, guid: a383d34adc6bc2e41868a50b643926e8, type: 3}
+  m_Sprite: {fileID: -7975882629763456202, guid: 6e81553d21ec2b547a8128006109313a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1531,7 +1531,7 @@ SpriteRenderer:
   m_Size: {x: 5.27, y: 11.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1008789831
@@ -1546,7 +1546,7 @@ GameObject:
   - component: {fileID: 1008789834}
   - component: {fileID: 1008789833}
   m_Layer: 0
-  m_Name: BG_Tree1-Sheet_0
+  m_Name: Tree1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1577,7 +1577,7 @@ Animator:
   m_GameObject: {fileID: 1008789831}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4c9cb341b6a76ad4b9b4dce998449486, type: 2}
+  m_Controller: {fileID: 9100000, guid: b5fba3d3f763741409c3b24103f04434, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1636,7 +1636,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9021860098241797636, guid: 0630a7579c2878f46afa4c5381e8b4ad, type: 3}
+  m_Sprite: {fileID: -9021860098241797636, guid: fd51eb9f5f88dc84cb44249b050d6161, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1644,7 +1644,7 @@ SpriteRenderer:
   m_Size: {x: 4.01, y: 6.86}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1091663448
@@ -2167,7 +2167,7 @@ GameObject:
   - component: {fileID: 1315891989}
   - component: {fileID: 1315891988}
   m_Layer: 0
-  m_Name: OldmanSpriteSheet-Sheet_0
+  m_Name: Oldman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2330,7 +2330,7 @@ GameObject:
   - component: {fileID: 1360520425}
   - component: {fileID: 1360520427}
   m_Layer: 0
-  m_Name: Snail-Sheet_0
+  m_Name: Snail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3355,7 +3355,7 @@ GameObject:
   - component: {fileID: 1859531255}
   - component: {fileID: 1859531254}
   m_Layer: 0
-  m_Name: BG_Tree2-Sheet_0
+  m_Name: Tree2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3386,7 +3386,7 @@ Animator:
   m_GameObject: {fileID: 1859531252}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 939868d54b7def941be45993c52ff7a7, type: 2}
+  m_Controller: {fileID: 9100000, guid: b698398d214d9ef4e9580c7e5bc4726d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3445,7 +3445,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3744361955250372591, guid: ff77cff30ab385e4d981241416e696c0, type: 3}
+  m_Sprite: {fileID: 3744361955250372591, guid: d7927598dca2f04409e21c6f40db586c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3453,7 +3453,7 @@ SpriteRenderer:
   m_Size: {x: 4.51, y: 6.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1860541293
@@ -4430,7 +4430,7 @@ GameObject:
   - component: {fileID: 2143936894}
   - component: {fileID: 2143936896}
   m_Layer: 0
-  m_Name: BG_SnailStand_0
+  m_Name: SnailStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4461,7 +4461,7 @@ Animator:
   m_GameObject: {fileID: 2143936892}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b6a047014280d784587cce3bf35fb80a, type: 2}
+  m_Controller: {fileID: 9100000, guid: f99a5f86e9a46934c9cf17edf17cf9b4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4520,7 +4520,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6128635164264526310, guid: 933445dbff4a771408f542b7fa70a460, type: 3}
+  m_Sprite: {fileID: 6128635164264526310, guid: 14406047976b9ff498866cf058a7a548, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4528,7 +4528,7 @@ SpriteRenderer:
   m_Size: {x: 5.54, y: 5.05}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2143936896
